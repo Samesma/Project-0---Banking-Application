@@ -1,4 +1,4 @@
-# Project Banking Application
+# Banking Application
 
 **Description**
 
