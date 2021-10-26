@@ -97,3 +97,20 @@ create sequence accnoseq start 1000;
 
 alter table accounts alter column acc_number set DEFAULT nextval('accnoseq');
 
+CREATE OR REPLACE PROCEDURE public.createjointaccount(bl double precision, tp character varying, st character varying, uid integer, uid2 integer)
+ LANGUAGE plpgsql
+AS $procedure$
+declare last_id int := 0;
+begin 
+	
+	 insert into  accounts(balance, acc_type,status)
+				values(bl,tp,st) returning id into last_id ;
+	  insert into accounts_users_junction (user_id ,account_id) 
+			  values( uid , last_id );
+			 
+	insert into accounts_users_junction (user_id ,account_id) 
+			  values( uid2 , last_id );
+		  
+end;
+$procedure$;
+
