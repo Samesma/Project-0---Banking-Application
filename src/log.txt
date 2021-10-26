@@ -1,0 +1,9 @@
+2021-10-13 09:21:02 INFO  Logging:36 - New user was registered
+2021-10-13 09:21:19 INFO  Logging:58 - User was logged in
+2021-10-13 09:22:42 WARN  Logging:35 - For input string: ""
+2021-10-13 09:23:14 WARN  Logging:50 - User tried logging in that does not exist
+2021-10-13 09:23:30 INFO  Logging:58 - User was logged in
+2021-10-13 09:24:44 WARN  Logging:50 - User tried logging in that does not exist
+2021-10-13 09:24:53 INFO  Logging:58 - User was logged in
+2021-10-13 09:28:28 WARN  Logging:35 - No line found
+2021-10-13 09:29:21 INFO  Logging:58 - User was logged in
