@@ -1,6 +1,7 @@
 # Banking Application
 
 **Description**
+
 This is an application for handling banking transactions, opening different types of accounts, and managing customers' accounts. Customers can register, and apply to open an account. Once the account is open, customers are able to withdraw, deposit, and transfer funds between accounts. Employees and managers of the bank can view and manage all the accounts like denying/ approving/ closing them or making transactions between accounts based on their role in the bank.
 
 **Technologies Used**
