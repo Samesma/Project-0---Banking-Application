@@ -33,4 +33,5 @@ Push the code to your remote repository, and import the project into STS as a Ma
 Create a new Repository on GitHub
 Clone the Project0-BankingOperations repository to your machine
 cd Project0-BankingOperations
+
 For running this project you need to Import the Maven project in STS, and have an AWS RDS PostgreSQL database, and put your database connection settings in JDBC properties in the project.
