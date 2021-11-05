@@ -1,31 +1,32 @@
 # Banking Application
 
 **Description**
+This is an application for handling banking transactions, opening different types of accounts, and managing customers' accounts. Customers can register, and apply to open an account. Once the account is open, customers are able to withdraw, deposit, and transfer funds between accounts. Employees and managers of the bank can view and manage all the accounts like denying/ approving/ closing them or making transactions between accounts based on their role in the bank.
 
-Leveraging Java 8, create an application that simulates simple banking transactions
+**Technologies Used**
+* Java 8
+* Postgresql Database
+* AWS RDS
+* Junit for unit testing
+* Log4j for logging
+* DAO design pattern for data connectivity
 
-**Requirements**
-*	Build the application using Java 8
-*	All interaction with the user should be done through the console using the `Scanner` class
-*	Customers of the bank should be able to register with a username and password, and apply to open an account.
-    * Stretch Goal: Customers should be able to apply for joint accounts
-*	Once the account is open, customers should be able to withdraw, deposit, and transfer funds between accounts
-    * All basic validation should be done, such as trying to input negative amounts, overdrawing from accounts etc.
-*	Employees of the bank should be able to view all of their customers information. This includes:
+**Features**
+*All basic validation is done, such as trying to input negative amounts, overdrawing from accounts, etc.
+*Employees of the bank can view all of their customers' information. This includes:
     * Account information
     * Account balances
     * Personal information
-*	Employees should be able to approve/deny open applications for accounts
-*	Bank admins should be able to view and edit all accounts. This includes:
+*	Employees can approve/deny open applications for accounts
+*	Bank admins can view and edit all accounts. This includes:
     * Approving/denying accounts
     * withdrawing, depositing, transferring from all accounts
     * canceling accounts
-*	Reasonable test coverage for the service layer is expected using JUnit.
-    * TDD is encouraged.
-*	Logging should be accomplished using Log4J
-    * All transactions should be logged
 
-* Create an SQL script that will create a user in an SQL database and a table schema for storing your bank users and account information.
-* Your database should include at least 1 stored procedure or trigger.
-* Have your bank application connect to your SQL database using JDBC and store all information that way.
-* You should use the DAO design pattern for data connectivity.
+**Getting Started**
+Download the files for the project from the remote repository and place them in the repository on your machine
+Push the code to your remote repository, and import the project into STS as a Maven project
+Create a new Repository on GitHub
+Clone the Project0-BankingOperations repository to your machine
+cd Project0-BankingOperations
+For running this project you need to Import the Maven project in STS, and have an AWS RDS PostgreSQL database, and put your database connection settings in JDBC properties in the project.
