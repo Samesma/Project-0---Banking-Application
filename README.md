@@ -15,8 +15,8 @@ This is an application for handling banking transactions, opening different type
 
 **Features**
 
-*All basic validation is done, such as trying to input negative amounts, overdrawing from accounts, etc.
-*Employees of the bank can view all of their customers' information. This includes:
+*  All basic validation is done, such as trying to input negative amounts, overdrawing from accounts, etc.
+*  Employees of the bank can view all of their customers' information. This includes:
     * Account information
     * Account balances
     * Personal information
